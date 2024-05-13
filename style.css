@@ -1,0 +1,132 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.complogo {
+  width: 190px;
+  height: auto;
+}
+
+.jumbo {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  background-color: #cccbcb;
+}
+
+.footer {
+  background-color: #cccbcb;
+}
+
+.social {
+  display: inline;
+  width: 25px;
+  margin: 10px;
+}
+
+.socials {
+  margin-left: auto;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
+
+.footercomplogo{
+  width: 100px;
+  height: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 15px;
+}
+
+.heroheader {
+  padding-bottom: 25px;
+}
+
+div.d-flex > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding-bottom: 30px;
+}
+
+.border-top {
+  padding-bottom: 35px;
+}
+
+.nav-link:hover {
+  color: #3158fe;
+  font-family: "Montserrat", sans-serif;
+}
+
+.border-top {
+  margin-top: 50px;
+}
+
+.drink-button{
+  margin-bottom: 50px;
+}
+
+.info {
+  padding-bottom: 20px;
+}
+
+
+/* Start of css for button */ 
+.btn-primary { 
+  color: #ffffff; 
+  background-color: #3158FE; 
+  border-color: #3158FE; 
+} 
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  color: #ffffff; 
+  background-color: #EF6800; 
+  border-color: #3158FE; 
+} 
+
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+  background-image: none; 
+} 
+
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary[disabled].active, 
+fieldset[disabled] .btn-primary.active { 
+  background-color: #3158FE; 
+  border-color: #3158FE; 
+} 
+
+.btn-primary .badge { 
+  color: #3158FE; 
+  background-color: #ffffff; 
+}
+/* End of css for button */ 
