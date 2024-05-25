@@ -3,10 +3,31 @@ body {
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  background-color: #ebeced;
+}
+
+.abouth2 {
+  color: #3158FE;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+.aboutheader {
+  color: #3158FE;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 4em;
+  margin: 20px;
+}
+
+.contactsocials {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .complogo {
-  width: 190px;
+  width: 300px;
   height: auto;
 }
 
@@ -16,11 +37,12 @@ body {
 }
 
 .navbar {
-  background-color: #cccbcb;
+  background-color: #72889d;
+  font-weight: 700;
 }
 
 .footer {
-  background-color: #cccbcb;
+  background-color: #72889d;
 }
 
 .social {
@@ -46,6 +68,13 @@ img {
   height: auto;
 }
 
+.about-img {
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: auto;
+}
+
 .nav-item {
   list-style: none;
   padding: 15px;
@@ -66,7 +95,7 @@ div.d-flex > div {
 }
 
 .nav-link:hover {
-  color: #3158fe;
+  color: white;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -89,6 +118,7 @@ div.d-flex > div {
   background-color: #3158FE; 
   border-color: #3158FE; 
 } 
+
 
 .btn-primary:hover, 
 .btn-primary:focus, 
@@ -130,3 +160,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: #ffffff; 
 }
 /* End of css for button */ 
+
+
+
+
+
+
