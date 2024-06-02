@@ -112,6 +112,14 @@ div.d-flex > div {
 }
 
 
+/* Leaflet Map */
+#map {
+  height: 450px;
+  width: 450px;
+  border: 2px solid #ab8a8d;;
+}
+
+
 /* Start of css for button */ 
 .btn-primary { 
   color: #ffffff; 
