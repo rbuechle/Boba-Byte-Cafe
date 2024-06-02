@@ -173,4 +173,16 @@ fieldset[disabled] .btn-primary.active {
 
 
 
+/* mouse over zoom for menu items */ 
+.zoom {
+  transition: transform .2s;
+  width: 100%;
+  height: auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
 
